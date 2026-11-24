@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// Tournament champion one-liner (111 UTF-8 bytes, single sentence, no trailing newline).
+// Round 2 tournament champion one-liner (88 UTF-8 bytes, single sentence, no trailing newline).
 const ONE_LINER: string =
-  'Nothing stirs my parental instincts like waking up at 2 a.m. to see if a pack of sponges made it out of Newark.';
+  'I take every secret to the grave, and somehow my wife hates six strangers by first name.';
 
 function validateLine(line: string): string {
   const trimmed = line.trim();
